@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kn0rp/exercism/cpp/making-the-grade/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

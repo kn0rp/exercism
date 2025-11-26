@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kn0rp/exercism/cpp/election-day/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/protein-translation/CMakeFiles/protein-translation.dir
+/home/kn0rp/exercism/cpp/protein-translation/CMakeFiles/test_protein-translation.dir
+/home/kn0rp/exercism/cpp/protein-translation/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/protein-translation/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/allergies.dir/link.d CMakeFiles/allergies.dir/allergies_test.cpp.o CMakeFiles/allergies.dir/allergies.cpp.o "CMakeFiles/allergies.dir/test/tests-main.cpp.o" -o allergies
