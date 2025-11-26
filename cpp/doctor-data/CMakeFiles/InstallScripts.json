@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kn0rp/exercism/cpp/doctor-data/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

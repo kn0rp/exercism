@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/doctor-data.dir/link.d "CMakeFiles/doctor-data.dir/doctor_data_test.cpp.o" "CMakeFiles/doctor-data.dir/doctor_data.cpp.o" "CMakeFiles/doctor-data.dir/test/tests-main.cpp.o" -o doctor-data

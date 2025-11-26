@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/doctor-data/CMakeFiles/doctor-data.dir
+/home/kn0rp/exercism/cpp/doctor-data/CMakeFiles/test_doctor-data.dir
+/home/kn0rp/exercism/cpp/doctor-data/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/doctor-data/CMakeFiles/rebuild_cache.dir
