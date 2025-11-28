@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/lasagna-master/CMakeFiles/lasagna-master.dir
+/home/kn0rp/exercism/cpp/lasagna-master/CMakeFiles/test_lasagna-master.dir
+/home/kn0rp/exercism/cpp/lasagna-master/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/lasagna-master/CMakeFiles/rebuild_cache.dir

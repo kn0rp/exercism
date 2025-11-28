@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kn0rp/exercism/cpp/lasagna-master/cmake_install.cmake"
+	],
+	"Parallel" : false
+}
