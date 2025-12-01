@@ -99,7 +99,7 @@ std::cout << "Wonder Woman, possesses the mighty " << dianaPrince->superpower;
 
 Pointers and references both enable indirect access to objects, but they differ in their capabilities and safety considerations.
 Pointers offer the flexibility of changing their target object and can be assigned null.
-However, this flexibility introduces risks, such as dereferencing null pointers or creating dangling pointers.
+owever, this flexibility introduces risks, such as dereferencing null pointers or creating dangling pointers.
 References, on the other hand, cannot be null and are bound to valid objects upon creation, avoiding these risks.
 Given their safer nature, references should be preferred over pointers unless the additional functionalities provided by pointers are necessary.
 

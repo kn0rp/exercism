@@ -6,11 +6,17 @@
 namespace speedywagon {
 
 struct pillar_men_sensor {
-    int activity{};
-    std::string location{};
-    std::vector<int> data{};
+  int activity{};
+  std::string location{};
+  std::vector<int> data{};
 };
 
-int uv_light_heuristic(std::vector<int>* data_array);
+bool connection_check(pillar_men_sensor *);
 
-}  // namespace speedywagon
+int activity_counter(int *, int);
+
+bool alarm_control(pillar_men_sensor *);
+
+int uv_light_heuristic(std::vector<int> *data_array);
+
+} // namespace speedywagon

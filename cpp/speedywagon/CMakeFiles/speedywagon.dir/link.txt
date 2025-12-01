@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/speedywagon.dir/link.d CMakeFiles/speedywagon.dir/speedywagon_test.cpp.o CMakeFiles/speedywagon.dir/speedywagon.cpp.o "CMakeFiles/speedywagon.dir/test/tests-main.cpp.o" -o speedywagon
