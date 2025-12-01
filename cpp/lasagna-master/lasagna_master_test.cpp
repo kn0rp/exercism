@@ -4,7 +4,9 @@
 #else
 #include "test/catch.hpp"
 #endif
+
 #define EXERCISM_RUN_ALL_TESTS
+
 #include <cmath>
 
 using namespace lasagna_master;
