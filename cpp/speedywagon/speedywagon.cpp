@@ -1,5 +1,5 @@
 #include "speedywagon.h"
-#include <array>
+#include <vector>
 
 namespace speedywagon {
 
@@ -13,10 +13,11 @@ bool connection_check(pillar_men_sensor *sensor) {
   }
 }
 
-int activity_counter(int *activity, int activity_count) {
+int activity_counter(const pillar_men_sensor *activities,
+                     size_t activity_count) {
   int accumulated_activity{0};
-  for (int i{0}; i < activity_count; i++) {
-    accumulated_activity += *(activity + i);
+  for (size_t i{0}; i < activity_count; i++) {
+    accumulated_activity += activities[i].activity;
   }
   return accumulated_activity;
 }

@@ -55,6 +55,7 @@ CMakeFiles/speedywagon.dir/speedywagon.cpp.o: speedywagon.cpp \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
@@ -105,6 +106,7 @@ CMakeFiles/speedywagon.dir/speedywagon.cpp.o: speedywagon.cpp \
   /usr/include/c++/15.2.1/cctype \
   /usr/include/c++/15.2.1/cerrno \
   /usr/include/c++/15.2.1/clocale \
+  /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
   /usr/include/c++/15.2.1/cstddef \
   /usr/include/c++/15.2.1/cstdio \
@@ -1244,10 +1246,6 @@ CMakeFiles/speedywagon.dir/speedywagon_test.cpp.o:
 
 /usr/include/c++/15.2.1/bits/basic_ios.tcc:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/include/bits/types/__sigset_t.h:
-
 /usr/lib/libgcc_s.so:
 
 /usr/include/c++/15.2.1/cstddef:
@@ -1291,6 +1289,16 @@ CMakeFiles/speedywagon.dir/speedywagon_test.cpp.o:
 /usr/include/c++/15.2.1/bits/uses_allocator.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h:
+
+/usr/include/c++/15.2.1/bits/stl_iterator.h:
+
+/usr/include/c++/15.2.1/bits/uses_allocator_args.h:
+
+/usr/include/c++/15.2.1/bits/basic_string.h:
+
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/bits/stdio_lim.h:
 
 /usr/include/c++/15.2.1/cfloat:
 
@@ -1338,8 +1346,6 @@ CMakeFiles/speedywagon.dir/speedywagon_test.cpp.o:
 
 /usr/include/bits/types/struct_timespec.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
 /usr/include/c++/15.2.1/bits/new_allocator.h:
 
 /usr/include/bits/stdint-uintn.h:
@@ -1347,10 +1353,6 @@ CMakeFiles/speedywagon.dir/speedywagon_test.cpp.o:
 /usr/include/asm/errno.h:
 
 /usr/include/c++/15.2.1/system_error:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/bits/types/__mbstate_t.h:
 
 /usr/include/c++/15.2.1/bits/atomic_lockfree_defines.h:
 
@@ -1367,6 +1369,12 @@ CMakeFiles/speedywagon.dir/speedywagon_test.cpp.o:
 /usr/include/c++/15.2.1/tr1/poly_hermite.tcc:
 
 /usr/include/bits/types/timer_t.h:
+
+test/tests-main.cpp:
+
+/usr/include/c++/15.2.1/bits/locale_facets.tcc:
+
+/usr/include/asm/posix_types_64.h:
 
 /usr/include/c++/15.2.1/bits/node_handle.h:
 
@@ -1386,17 +1394,21 @@ CMakeFiles/speedywagon.dir/speedywagon_test.cpp.o:
 
 /usr/include/c++/15.2.1/bits/allocator.h:
 
-/usr/include/c++/15.2.1/bits/stl_iterator.h:
+/usr/include/bits/types/__sigset_t.h:
 
-/usr/include/c++/15.2.1/bits/uses_allocator_args.h:
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
 
-/usr/include/c++/15.2.1/bits/basic_string.h:
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
 
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
 
 /usr/include/c++/15.2.1/bits/quoted_string.h:
 
 /usr/include/features-time64.h:
+
+/usr/include/c++/15.2.1/array:
+
+/usr/include/c++/15.2.1/bits/algorithmfwd.h:
 
 /usr/include/linux/errno.h:
 
@@ -1438,12 +1450,6 @@ speedywagon_test.cpp:
 
 /usr/include/asm/posix_types.h:
 
-test/tests-main.cpp:
-
-/usr/include/c++/15.2.1/bits/locale_facets.tcc:
-
-/usr/include/asm/posix_types_64.h:
-
 /usr/include/asm/types.h:
 
 /usr/include/wctype.h:
@@ -1483,10 +1489,6 @@ test/tests-main.cpp:
 /usr/include/bits/types/struct_tm.h:
 
 /usr/include/c++/15.2.1/algorithm:
-
-/usr/include/c++/15.2.1/bits/algorithmfwd.h:
-
-/usr/include/c++/15.2.1/array:
 
 /usr/include/c++/15.2.1/backward/auto_ptr.h:
 

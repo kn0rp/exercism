@@ -1,13 +1,13 @@
 #pragma once
 
 #include <array>
+#include <cstddef>
 #include <string>
 #include <vector>
 
 namespace speedywagon {
 
 struct pillar_men_sensor {
-  pillar_men_sensor(int, std::string, std::vector<int>);
   int activity{};
   std::string location{};
   std::vector<int> data{};
@@ -15,7 +15,7 @@ struct pillar_men_sensor {
 
 bool connection_check(pillar_men_sensor *);
 
-int activity_counter(int *, int);
+int activity_counter(const pillar_men_sensor *, size_t);
 
 bool alarm_control(pillar_men_sensor *);
 

@@ -56,6 +56,7 @@ CMakeFiles/speedywagon.dir/speedywagon.cpp.o
  /usr/include/bits/waitstatus.h
  /usr/include/bits/wchar.h
  /usr/include/bits/wordsize.h
+ /usr/include/c++/15.2.1/array
  /usr/include/c++/15.2.1/backward/binders.h
  /usr/include/c++/15.2.1/bit
  /usr/include/c++/15.2.1/bits/alloc_traits.h
@@ -106,6 +107,7 @@ CMakeFiles/speedywagon.dir/speedywagon.cpp.o
  /usr/include/c++/15.2.1/cctype
  /usr/include/c++/15.2.1/cerrno
  /usr/include/c++/15.2.1/clocale
+ /usr/include/c++/15.2.1/compare
  /usr/include/c++/15.2.1/concepts
  /usr/include/c++/15.2.1/cstddef
  /usr/include/c++/15.2.1/cstdio
