@@ -1,4 +1,5 @@
 #include "speedywagon.h"
+#include <array>
 
 namespace speedywagon {
 
@@ -20,6 +21,15 @@ int activity_counter(int *activity, int activity_count) {
   return accumulated_activity;
 }
 
+bool alarm_control(pillar_men_sensor *sensor) {
+  if (connection_check(sensor) && sensor->activity > 0) {
+    return true;
+  } else if (connection_check(sensor) != 1) {
+    return false;
+  }
+  return false;
+}
+
 // Please don't change the interface of the uv_light_heuristic function
 int uv_light_heuristic(std::vector<int> *data_array) {
   double avg{};
@@ -33,6 +43,16 @@ int uv_light_heuristic(std::vector<int> *data_array) {
       ++uv_index;
   }
   return uv_index;
+}
+
+bool uv_alarm(pillar_men_sensor *sensor) {
+  if (connection_check(sensor) &&
+      uv_light_heuristic(&sensor->data) > sensor->activity) {
+    return true;
+  } else {
+    return false;
+  }
+  return false;
 }
 
 } // namespace speedywagon
