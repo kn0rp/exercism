@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kn0rp/exercism/cpp/power-of-troy/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

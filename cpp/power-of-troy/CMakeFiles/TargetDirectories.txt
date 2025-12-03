@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/power-of-troy/CMakeFiles/power-of-troy.dir
+/home/kn0rp/exercism/cpp/power-of-troy/CMakeFiles/test_power-of-troy.dir
+/home/kn0rp/exercism/cpp/power-of-troy/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/power-of-troy/CMakeFiles/rebuild_cache.dir
