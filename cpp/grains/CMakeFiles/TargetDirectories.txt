@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/grains/CMakeFiles/grains.dir
+/home/kn0rp/exercism/cpp/grains/CMakeFiles/test_grains.dir
+/home/kn0rp/exercism/cpp/grains/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/grains/CMakeFiles/rebuild_cache.dir
