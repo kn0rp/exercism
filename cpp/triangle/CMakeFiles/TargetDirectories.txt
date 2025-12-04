@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/triangle/CMakeFiles/triangle.dir
+/home/kn0rp/exercism/cpp/triangle/CMakeFiles/test_triangle.dir
+/home/kn0rp/exercism/cpp/triangle/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/triangle/CMakeFiles/rebuild_cache.dir
