@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kn0rp/exercism/cpp/space-age/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

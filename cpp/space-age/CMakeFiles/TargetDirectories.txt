@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/space-age/CMakeFiles/space-age.dir
+/home/kn0rp/exercism/cpp/space-age/CMakeFiles/test_space-age.dir
+/home/kn0rp/exercism/cpp/space-age/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/space-age/CMakeFiles/rebuild_cache.dir
