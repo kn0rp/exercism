@@ -11,10 +11,10 @@ long long unsigned int square(long long unsigned int num) {
 
 long long unsigned int total() {
   long long unsigned int sum{0};
-  for (int i{0}; i < 64; i++) {
+  for (int i{0}; i < 64; ++i) {
     sum += std::pow(2, i);
   }
-  return sum;
+  return sum - 1;
 }
 
 } // namespace grains
