@@ -21,8 +21,6 @@ CMakeFiles/pangram.dir/pangram.cpp.o: pangram.cpp \
   /usr/include/bits/pthreadtypes.h \
   /usr/include/bits/select.h \
   /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-least.h \
-  /usr/include/bits/stdint-uintn.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
@@ -57,9 +55,11 @@ CMakeFiles/pangram.dir/pangram.cpp.o: pangram.cpp \
   /usr/include/bits/waitstatus.h \
   /usr/include/bits/wchar.h \
   /usr/include/bits/wordsize.h \
+  /usr/include/c++/15.2.1/algorithm \
   /usr/include/c++/15.2.1/array \
   /usr/include/c++/15.2.1/backward/binders.h \
   /usr/include/c++/15.2.1/bit \
+  /usr/include/c++/15.2.1/bits/algorithmfwd.h \
   /usr/include/c++/15.2.1/bits/alloc_traits.h \
   /usr/include/c++/15.2.1/bits/allocator.h \
   /usr/include/c++/15.2.1/bits/basic_string.h \
@@ -88,15 +88,19 @@ CMakeFiles/pangram.dir/pangram.cpp.o: pangram.cpp \
   /usr/include/c++/15.2.1/bits/refwrap.h \
   /usr/include/c++/15.2.1/bits/requires_hosted.h \
   /usr/include/c++/15.2.1/bits/std_abs.h \
+  /usr/include/c++/15.2.1/bits/stl_algo.h \
   /usr/include/c++/15.2.1/bits/stl_algobase.h \
   /usr/include/c++/15.2.1/bits/stl_construct.h \
   /usr/include/c++/15.2.1/bits/stl_function.h \
+  /usr/include/c++/15.2.1/bits/stl_heap.h \
   /usr/include/c++/15.2.1/bits/stl_iterator.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h \
   /usr/include/c++/15.2.1/bits/stl_pair.h \
+  /usr/include/c++/15.2.1/bits/stl_tempbuf.h \
   /usr/include/c++/15.2.1/bits/string_view.tcc \
   /usr/include/c++/15.2.1/bits/stringfwd.h \
+  /usr/include/c++/15.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/15.2.1/bits/uses_allocator.h \
   /usr/include/c++/15.2.1/bits/uses_allocator_args.h \
   /usr/include/c++/15.2.1/bits/utility.h \
@@ -107,7 +111,6 @@ CMakeFiles/pangram.dir/pangram.cpp.o: pangram.cpp \
   /usr/include/c++/15.2.1/compare \
   /usr/include/c++/15.2.1/concepts \
   /usr/include/c++/15.2.1/cstddef \
-  /usr/include/c++/15.2.1/cstdint \
   /usr/include/c++/15.2.1/cstdio \
   /usr/include/c++/15.2.1/cstdlib \
   /usr/include/c++/15.2.1/cwchar \
@@ -120,6 +123,8 @@ CMakeFiles/pangram.dir/pangram.cpp.o: pangram.cpp \
   /usr/include/c++/15.2.1/initializer_list \
   /usr/include/c++/15.2.1/iosfwd \
   /usr/include/c++/15.2.1/new \
+  /usr/include/c++/15.2.1/pstl/execution_defs.h \
+  /usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h \
   /usr/include/c++/15.2.1/pstl/pstl_config.h \
   /usr/include/c++/15.2.1/string \
   /usr/include/c++/15.2.1/string_view \
@@ -140,7 +145,6 @@ CMakeFiles/pangram.dir/pangram.cpp.o: pangram.cpp \
   /usr/include/linux/errno.h \
   /usr/include/locale.h \
   /usr/include/stdc-predef.h \
-  /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
@@ -148,8 +152,7 @@ CMakeFiles/pangram.dir/pangram.cpp.o: pangram.cpp \
   /usr/include/sys/types.h \
   /usr/include/wchar.h \
   /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdarg.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h \
-  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h
+  /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h
 
 CMakeFiles/pangram.dir/pangram_test.cpp.o: pangram_test.cpp \
   pangram.h \
@@ -946,6 +949,8 @@ CMakeFiles/pangram.dir/test/tests-main.cpp.o:
 
 /usr/include/bits/confname.h:
 
+/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
+
 /usr/include/c++/15.2.1/bits/fstream.tcc:
 
 /usr/include/time.h:
@@ -990,15 +995,19 @@ CMakeFiles/pangram.dir/test/tests-main.cpp.o:
 
 /usr/include/c++/15.2.1/tr1/legendre_function.tcc:
 
-/usr/include/c++/15.2.1/tr1/gamma.tcc:
-
-/usr/include/c++/15.2.1/type_traits:
-
 /usr/include/c++/15.2.1/string_view:
 
 /usr/include/c++/15.2.1/string:
 
 /usr/include/sys/cdefs.h:
+
+/usr/include/c++/15.2.1/pstl/execution_defs.h:
+
+/usr/include/c++/15.2.1/cfloat:
+
+/usr/include/bits/atomic_wide_counter.h:
+
+/usr/include/c++/15.2.1/new:
 
 /usr/include/c++/15.2.1/ext/string_conversions.h:
 
@@ -1012,6 +1021,8 @@ CMakeFiles/pangram.dir/test/tests-main.cpp.o:
 
 /usr/include/c++/15.2.1/ext/alloc_traits.h:
 
+/usr/include/c++/15.2.1/type_traits:
+
 /usr/include/c++/15.2.1/bits/memoryfwd.h:
 
 /usr/include/bits/types/wint_t.h:
@@ -1022,13 +1033,17 @@ CMakeFiles/pangram.dir/test/tests-main.cpp.o:
 
 /usr/include/assert.h:
 
-/usr/include/c++/15.2.1/cstdint:
-
 /usr/include/c++/15.2.1/concepts:
 
 /usr/include/wchar.h:
 
 /usr/include/c++/15.2.1/clocale:
+
+/usr/include/bits/siginfo-arch.h:
+
+/usr/include/c++/15.2.1/cwchar:
+
+/usr/include/c++/15.2.1/bits/uniform_int_dist.h:
 
 /usr/lib/libstdc++.so:
 
@@ -1120,6 +1135,12 @@ test/catch.hpp:
 
 /usr/include/asm/bitsperlong.h:
 
+pangram.cpp:
+
+/usr/include/c++/15.2.1/bits/move.h:
+
+/usr/include/bits/types.h:
+
 /usr/include/bits/time64.h:
 
 /usr/include/c++/15.2.1/bits/regex.tcc:
@@ -1130,19 +1151,25 @@ test/catch.hpp:
 
 /usr/include/bits/byteswap.h:
 
+/usr/include/c++/15.2.1/bits/stl_tree.h:
+
+/usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h:
+
 /usr/include/c++/15.2.1/bits/char_traits.h:
 
 /usr/include/c++/15.2.1/bits/exception.h:
 
 /usr/include/bits/math-vector.h:
 
-/usr/include/c++/15.2.1/new:
+/usr/include/linux/posix_types.h:
 
-/usr/include/bits/stdint-least.h:
+/usr/include/c++/15.2.1/bits/utility.h:
 
-/usr/include/c++/15.2.1/bits/nested_exception.h:
+/usr/include/bits/types/FILE.h:
 
-/usr/include/c++/15.2.1/bits/ostream.h:
+/usr/include/bits/flt-eval-method.h:
+
+/usr/include/c++/15.2.1/algorithm:
 
 /usr/include/c++/15.2.1/bits/istream.tcc:
 
@@ -1174,6 +1201,10 @@ pangram.h:
 
 /usr/include/asm-generic/errno-base.h:
 
+/usr/include/c++/15.2.1/bits/stl_vector.h:
+
+/usr/include/asm-generic/errno.h:
+
 /usr/include/bits/fp-logb.h:
 
 /usr/include/c++/15.2.1/bits/stl_iterator_base_types.h:
@@ -1196,6 +1227,10 @@ pangram.h:
 
 /usr/include/bits/errno.h:
 
+/usr/include/c++/15.2.1/bits/nested_exception.h:
+
+/usr/include/c++/15.2.1/bits/ostream.h:
+
 /usr/include/bits/timesize.h:
 
 /usr/include/c++/15.2.1/cerrno:
@@ -1203,10 +1238,6 @@ pangram.h:
 /usr/include/bits/libm-simd-decl-stubs.h:
 
 /usr/include/c++/15.2.1/bits/basic_ios.tcc:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
-
-/usr/include/bits/types/__sigset_t.h:
 
 /usr/lib/libgcc_s.so:
 
@@ -1216,11 +1247,29 @@ pangram.h:
 
 /usr/include/c++/15.2.1/bits/exception_defines.h:
 
+pangram_test.cpp:
+
+/usr/include/c++/15.2.1/bits/ios_base.h:
+
+/usr/include/bits/types/time_t.h:
+
+/usr/include/c++/15.2.1/bits/range_access.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
+
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/messages_members.h:
 
 /usr/include/bits/types/sigset_t.h:
 
-pangram.cpp:
+/usr/include/asm-generic/bitsperlong.h:
+
+/usr/include/c++/15.2.1/exception:
+
+/usr/include/asm-generic/types.h:
+
+/usr/include/c++/15.2.1/bits/stl_heap.h:
+
+/usr/include/bits/stdint-least.h:
 
 /usr/include/c++/15.2.1/initializer_list:
 
@@ -1238,29 +1287,7 @@ pangram.cpp:
 
 /usr/include/c++/15.2.1/bits/exception_ptr.h:
 
-/usr/include/c++/15.2.1/bits/range_access.h:
-
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h:
-
-/usr/include/bits/types/time_t.h:
-
 /usr/include/bits/floatn.h:
-
-/usr/include/c++/15.2.1/bits/move.h:
-
-/usr/include/bits/types.h:
-
-/usr/include/linux/posix_types.h:
-
-/usr/include/c++/15.2.1/bits/utility.h:
-
-/usr/include/bits/types/FILE.h:
-
-/usr/include/bits/flt-eval-method.h:
-
-pangram_test.cpp:
-
-/usr/include/c++/15.2.1/bits/ios_base.h:
 
 /usr/include/bits/types/__locale_t.h:
 
@@ -1278,11 +1305,11 @@ pangram_test.cpp:
 
 /usr/include/bits/stdio_lim.h:
 
-/usr/include/c++/15.2.1/cfloat:
+/usr/include/bits/getopt_posix.h:
 
-/usr/include/bits/atomic_wide_counter.h:
+/usr/include/errno.h:
 
-/usr/include/c++/15.2.1/pstl/execution_defs.h:
+/usr/include/c++/15.2.1/tuple:
 
 /usr/lib/crtn.o:
 
@@ -1326,8 +1353,6 @@ CMakeFiles/pangram.dir/pangram.cpp.o:
 
 /usr/include/bits/types/struct_timespec.h:
 
-/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
-
 /usr/include/c++/15.2.1/bits/new_allocator.h:
 
 /usr/include/bits/stdint-uintn.h:
@@ -1352,6 +1377,14 @@ CMakeFiles/pangram.dir/pangram.cpp.o:
 
 /usr/include/bits/types/timer_t.h:
 
+/usr/include/c++/15.2.1/array:
+
+/usr/include/c++/15.2.1/bits/algorithmfwd.h:
+
+/usr/include/c++/15.2.1/bits/quoted_string.h:
+
+/usr/include/features-time64.h:
+
 /usr/include/c++/15.2.1/bits/node_handle.h:
 
 /usr/include/c++/15.2.1/bits/basic_string.tcc:
@@ -1368,43 +1401,19 @@ CMakeFiles/pangram.dir/pangram.cpp.o:
 
 /usr/include/c++/15.2.1/tr1/ell_integral.tcc:
 
+/usr/include/bits/types/__sigset_t.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++config.h:
+
+/usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/c++locale.h:
+
 /usr/include/c++/15.2.1/x86_64-pc-linux-gnu/bits/os_defines.h:
-
-/usr/include/bits/getopt_posix.h:
-
-/usr/include/c++/15.2.1/tuple:
-
-/usr/include/errno.h:
-
-/usr/include/asm-generic/errno.h:
-
-/usr/include/c++/15.2.1/bits/stl_vector.h:
-
-/usr/include/asm-generic/bitsperlong.h:
-
-/usr/include/c++/15.2.1/bits/stl_heap.h:
-
-/usr/include/asm-generic/types.h:
-
-/usr/include/c++/15.2.1/exception:
-
-/usr/include/c++/15.2.1/bits/stl_tree.h:
-
-/usr/include/c++/15.2.1/pstl/glue_algorithm_defs.h:
-
-/usr/include/c++/15.2.1/bits/quoted_string.h:
-
-/usr/include/features-time64.h:
-
-/usr/include/c++/15.2.1/array:
-
-/usr/include/c++/15.2.1/bits/algorithmfwd.h:
 
 /usr/include/linux/errno.h:
 
-/usr/include/bits/types/clockid_t.h:
-
 /usr/include/bits/stdint-intn.h:
+
+/usr/include/bits/types/clockid_t.h:
 
 /usr/include/c++/15.2.1/random:
 
@@ -1431,8 +1440,6 @@ CMakeFiles/pangram.dir/pangram.cpp.o:
 /usr/include/bits/sigaction.h:
 
 /usr/include/c++/15.2.1/bits/vector.tcc:
-
-/usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stdint.h:
 
 /usr/lib/gcc/x86_64-pc-linux-gnu/15.2.1/include/stddef.h:
 
@@ -1471,8 +1478,6 @@ CMakeFiles/pangram.dir/pangram.cpp.o:
 /usr/include/bits/types/struct_sched_param.h:
 
 /usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/15.2.1/algorithm:
 
 /usr/include/c++/15.2.1/backward/auto_ptr.h:
 
@@ -1558,23 +1563,19 @@ test/tests-main.cpp:
 
 /usr/include/c++/15.2.1/bits/streambuf_iterator.h:
 
-/usr/include/bits/siginfo-arch.h:
-
-/usr/include/c++/15.2.1/cwchar:
-
-/usr/include/c++/15.2.1/bits/uniform_int_dist.h:
-
 /usr/include/c++/15.2.1/bits/unique_ptr.h:
 
 /usr/include/c++/15.2.1/bits/unordered_map.h:
 
 /usr/include/c++/15.2.1/cassert:
 
-/usr/include/endian.h:
-
 /usr/include/stdint.h:
 
+/usr/include/endian.h:
+
 /usr/include/c++/15.2.1/cmath:
+
+/usr/include/c++/15.2.1/cstdint:
 
 /usr/include/bits/timex.h:
 
@@ -1603,3 +1604,5 @@ test/tests-main.cpp:
 /usr/include/bits/floatn-common.h:
 
 /usr/include/c++/15.2.1/ratio:
+
+/usr/include/c++/15.2.1/tr1/gamma.tcc:

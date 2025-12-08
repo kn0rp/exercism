@@ -7,4 +7,6 @@ namespace pangram {
 
 bool is_pangram(std::string);
 
+std::string str_to_lower(std::string);
+
 } // namespace pangram
