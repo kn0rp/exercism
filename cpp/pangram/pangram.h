@@ -1,7 +1,10 @@
 #pragma once
 
+#include <string>
 namespace pangram {
 
 // TODO: add your solution here
 
-}  // namespace pangram
+bool is_pangram(std::string);
+
+} // namespace pangram
