@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/grade-school/CMakeFiles/grade-school.dir
+/home/kn0rp/exercism/cpp/grade-school/CMakeFiles/test_grade-school.dir
+/home/kn0rp/exercism/cpp/grade-school/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/grade-school/CMakeFiles/rebuild_cache.dir

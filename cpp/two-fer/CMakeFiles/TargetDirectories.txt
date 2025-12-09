@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/two-fer/CMakeFiles/two-fer.dir
+/home/kn0rp/exercism/cpp/two-fer/CMakeFiles/test_two-fer.dir
+/home/kn0rp/exercism/cpp/two-fer/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/two-fer/CMakeFiles/rebuild_cache.dir
