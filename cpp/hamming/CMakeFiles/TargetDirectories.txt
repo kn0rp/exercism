@@ -1,0 +1,4 @@
+/home/kn0rp/exercism/cpp/hamming/CMakeFiles/hamming.dir
+/home/kn0rp/exercism/cpp/hamming/CMakeFiles/test_hamming.dir
+/home/kn0rp/exercism/cpp/hamming/CMakeFiles/edit_cache.dir
+/home/kn0rp/exercism/cpp/hamming/CMakeFiles/rebuild_cache.dir

@@ -1,7 +1,11 @@
 #pragma once
 
+#include <string>
+
+using std::string;
+
 namespace hamming {
 
-// TODO: add your solution here
+int compute(string, string);
 
-}  // namespace hamming
+} // namespace hamming
