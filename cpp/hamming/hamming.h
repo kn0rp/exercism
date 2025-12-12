@@ -6,6 +6,6 @@ using std::string;
 
 namespace hamming {
 
-int compute(string, string);
+int compute(const string &, const string &);
 
 } // namespace hamming

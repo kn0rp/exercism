@@ -6,7 +6,7 @@
 using std::string;
 namespace hamming {
 
-int compute(string strand1, string strand2) {
+int compute(const string &strand1, const string &strand2) {
   if (strand1.size() != strand2.size()) {
     throw std::domain_error("Different strand sizes not allowed");
   } else {
