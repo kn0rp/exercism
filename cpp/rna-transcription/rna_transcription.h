@@ -1,7 +1,13 @@
 #pragma once
 
+#include <string>
+
+using std::string;
+
 namespace rna_transcription {
 
-// TODO: add your solution here
+string to_rna(string);
 
-}  // namespace rna_transcription
+char to_rna(char);
+
+} // namespace rna_transcription
