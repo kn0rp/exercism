@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/nth-prime.dir/link.d "CMakeFiles/nth-prime.dir/nth_prime_test.cpp.o" "CMakeFiles/nth-prime.dir/nth_prime.cpp.o" "CMakeFiles/nth-prime.dir/test/tests-main.cpp.o" -o nth-prime
