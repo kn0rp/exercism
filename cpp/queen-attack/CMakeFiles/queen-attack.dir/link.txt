@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/queen-attack.dir/link.d "CMakeFiles/queen-attack.dir/queen_attack_test.cpp.o" "CMakeFiles/queen-attack.dir/queen_attack.cpp.o" "CMakeFiles/queen-attack.dir/test/tests-main.cpp.o" -o queen-attack
