@@ -1,7 +1,10 @@
 #pragma once
 
+#include <vector>
 namespace sieve {
 
-// TODO: add your solution here
+std::vector<int> primes(int);
 
-}  // namespace sieve
+bool isPrime(int);
+
+} // namespace sieve

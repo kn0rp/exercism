@@ -1,0 +1,7 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/kn0rp/exercism/cpp/sieve/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

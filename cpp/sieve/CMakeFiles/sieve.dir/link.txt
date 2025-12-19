@@ -1,0 +1,1 @@
+/usr/bin/c++ -g -Wl,--dependency-file=CMakeFiles/sieve.dir/link.d CMakeFiles/sieve.dir/sieve_test.cpp.o CMakeFiles/sieve.dir/sieve.cpp.o "CMakeFiles/sieve.dir/test/tests-main.cpp.o" -o sieve
